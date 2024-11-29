@@ -1,0 +1,20 @@
+# Files and Here. 
+
+Although this is not the complete system, I have uploaded the YAML files, the python code and the script which starts the python in the background (run in cron).  
+
+I have also uploaded the grafana code to provide the screen. 
+
+# Sources. 
+
+I have multiple sources of data for this (not all shown in this repository). 
+
+The first, and most obvious is the mqtt data coming from the Outback Mate3s system.
+That is fed into sensors to display. 
+
+The next is data from my weather station (code not here, but it is nice to know the current information on my dashboard). 
+I get all that data from another raspi using rtl433 receiver (listening on 900 mhz I believe). 
+
+The final piece of data is from the power panel here in my office, which provides realtime data from my circuit breaker power panel via shelly sensors. 
+
+I'm going to eventually put the whole set of code, and complete description of what I did to get here, but for now, 
+this should be enough for the folks who asked me for the information. 
